@@ -146,3 +146,6 @@ npm run check
 ## License
 
 MIT
+
+> 当前部署地址：https://mikkkp.github.io/convenience-store-game/
+
