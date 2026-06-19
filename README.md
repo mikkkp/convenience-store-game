@@ -77,7 +77,7 @@
 
 ### 环境要求
 
-- **Node.js** >= 20
+- **Node.js** >= 22（LTS，GitHub Pages CI 当前使用 Node 24）
 - **npm** （包管理器）
 
 ### 安装依赖
@@ -134,7 +134,7 @@ npm run check
 
 1. 在 GitHub 仓库的 **Settings → Pages** 中将 Source 设置为 "GitHub Actions"
 2. 将代码推送到 `main` 分支，或在 Actions 页面手动触发 `Deploy to GitHub Pages` 工作流
-3. 工作流会自动在 `ubuntu-latest` 环境中使用 Node.js 20 安装依赖、构建项目，并将 `dist/` 目录部署到 Pages
+3. 工作流会自动在 `ubuntu-latest` 环境中使用 Node.js 22 安装依赖、构建项目，并将 `dist/` 目录部署到 Pages
 
 **注意**：Vite 配置中的 `base` 路径为 `/convenience-store-game/`，确保与你的 GitHub Pages 部署路径一致。
 
